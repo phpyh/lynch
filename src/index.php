@@ -13,7 +13,7 @@ require_once __DIR__.'/../vendor/autoload.php';
 ob_start();
 
 $object = new \stdClass();
-$object->awd = 123;
+$object->{''} = 123;
 
 var_dump([
     'a' => [$object, new \ArrayObject()],
