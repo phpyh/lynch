@@ -10,7 +10,8 @@
         }
     ],
     "require": {
-        "php": "^8.5"
+        "php": "^8.5",
+        "typhoon/type": "^0.8@dev"
     },
     "require-dev": {
         "feolius/hell2shape": "^0.4.2",

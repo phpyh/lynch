@@ -4,8 +4,156 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bdeeddfef7fe4d8b9fead768a6a53f23",
-    "packages": [],
+    "content-hash": "204dac5b4382b1968579ac262af467d7",
+    "packages": [
+        {
+            "name": "symfony/polyfill-php83",
+            "version": "v1.33.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-php83.git",
+                "reference": "17f6f9a6b1735c0f163024d959f700cfbc5155e5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-php83/zipball/17f6f9a6b1735c0f163024d959f700cfbc5155e5",
+                "reference": "17f6f9a6b1735c0f163024d959f700cfbc5155e5",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2"
+            },
+            "type": "library",
+            "extra": {
+                "thanks": {
+                    "url": "https://github.com/symfony/polyfill",
+                    "name": "symfony/polyfill"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "bootstrap.php"
+                ],
+                "psr-4": {
+                    "Symfony\\Polyfill\\Php83\\": ""
+                },
+                "classmap": [
+                    "Resources/stubs"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony polyfill backporting some PHP 8.3+ features to lower PHP versions",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "polyfill",
+                "portable",
+                "shim"
+            ],
+            "support": {
+                "source": "https://github.com/symfony/polyfill-php83/tree/v1.33.0"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://github.com/nicolas-grekas",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2025-07-08T02:45:35+00:00"
+        },
+        {
+            "name": "typhoon/type",
+            "version": "0.8.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/typhoon-php/type.git",
+                "reference": "abc8eb758bb5f17a74daa3ca440f2b0bd86f1fe5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/typhoon-php/type/zipball/abc8eb758bb5f17a74daa3ca440f2b0bd86f1fe5",
+                "reference": "abc8eb758bb5f17a74daa3ca440f2b0bd86f1fe5",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.2",
+                "symfony/polyfill-php83": "^1.33"
+            },
+            "require-dev": {
+                "nette/php-generator": "^4.2.0",
+                "phpunit/phpunit": "^11.5.42",
+                "symfony/finder": "^7.3.5",
+                "symfony/polyfill-php85": "^1.33",
+                "symfony/var-dumper": "^7.3.5"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/Type/constructors.php",
+                    "src/Type/stringify.php"
+                ],
+                "psr-4": {
+                    "Typhoon\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Valentin Udaltsov",
+                    "email": "udaltsov.valentin@gmail.com"
+                },
+                {
+                    "name": "Andrey Klimenko",
+                    "email": "klimichkartorgnusov@gmail.com"
+                },
+                {
+                    "name": "Typhoon Team",
+                    "homepage": "https://github.com/orgs/typhoon-php/people"
+                }
+            ],
+            "description": "Typhoon Type System",
+            "support": {
+                "issues": "https://github.com/typhoon-php/type/issues",
+                "source": "https://github.com/typhoon-php/type/tree/0.8.x"
+            },
+            "funding": [
+                {
+                    "url": "https://www.tinkoff.ru/cf/5MqZQas2dk7",
+                    "type": "custom"
+                }
+            ],
+            "time": "2026-02-11T00:11:52+00:00"
+        }
+    ],
     "packages-dev": [
         {
             "name": "feolius/hell2shape",
@@ -2561,7 +2709,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {},
+    "stability-flags": {
+        "typhoon/type": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
