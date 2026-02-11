@@ -13,6 +13,7 @@
         "php": "^8.5"
     },
     "require-dev": {
+        "feolius/hell2shape": "^0.4.2",
         "phpunit/phpunit": "^12.4",
         "symfony/var-dumper": "^8.0"
     },
