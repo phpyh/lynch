@@ -10,13 +10,11 @@
         }
     ],
     "require": {
-        "php": "^8.5",
-        "typhoon/type": "^0.8@dev"
+        "php": "^8.5"
     },
     "require-dev": {
-        "feolius/hell2shape": "^0.4.2",
-        "phpunit/phpunit": "^12.4",
-        "symfony/var-dumper": "^8.0"
+        "phpunit/phpunit": "^12.5.14",
+        "symfony/var-dumper": "^8.0.4"
     },
     "autoload": {
         "psr-4": {
