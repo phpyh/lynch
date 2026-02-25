@@ -10,7 +10,8 @@
         }
     ],
     "require": {
-        "php": "^8.5"
+        "php": "^8.4",
+        "a7-tech/laminas-attribute-controller": "^0.2.2"
     },
     "require-dev": {
         "phpunit/phpunit": "^12.5.14",
